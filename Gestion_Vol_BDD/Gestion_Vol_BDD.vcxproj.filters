@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Account">
+      <UniqueIdentifier>{1720ec0e-8268-4404-8e11-1caf642e6ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Account\Login">
+      <UniqueIdentifier>{664b5608-d0b5-43cd-9795-d291af547665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Account\Register">
+      <UniqueIdentifier>{767ff659-148f-4093-a806-053dd657854c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Gestion_Vol">
+      <UniqueIdentifier>{4093cc54-970f-431b-9dc1-a58e1da2edd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Gestion_Vol\Classes">
+      <UniqueIdentifier>{2b389ddb-dcf9-4c9a-a1db-9654c3f93a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Gestion_Vol\Fonctions">
+      <UniqueIdentifier>{7b1aa7c7-7258-4d1c-8315-d4348793dcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Server_DB">
+      <UniqueIdentifier>{58155619-e8a9-4e1d-bae1-1af7b2be626a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Resource Files\Account\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>Resource Files\Account\Register</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu_Account.h">
+      <Filter>Resource Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Connect.h">
+      <Filter>Resource Files\Server_DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Passanger.h">
+      <Filter>Resource Files\Gestion_Vol\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Airplane.h">
+      <Filter>Resource Files\Gestion_Vol\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Flight.h">
+      <Filter>Resource Files\Gestion_Vol\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Combined_F.h">
+      <Filter>Resource Files\Gestion_Vol\Fonctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Resource Files\Gestion_Vol</Filter>
+    </ClInclude>
+    <ClInclude Include="Own_Functions.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
